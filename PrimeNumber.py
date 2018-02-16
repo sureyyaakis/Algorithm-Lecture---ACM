@@ -1,4 +1,4 @@
-# Prime Number
+# Find Prime Number 
 
 r=int(input("Enter upper limit: "))
 for a in range(2,r+1):
