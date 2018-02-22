@@ -1,4 +1,4 @@
-#Modular Exponentiation in Python 
+# Modular Exponentiation in Python 
 # then applies % operator
 
 a = 2
