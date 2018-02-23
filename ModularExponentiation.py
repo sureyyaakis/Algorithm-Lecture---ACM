@@ -1,11 +1,21 @@
 # Modular Exponentiation in Python 
-# then applies % operator
 
-a = 2
-b = 100
-c = (int)(1e9+7)
+""" 
+n = 8765
+power = 101
+mod = 9691573
 
-# Using direct fast method to compute 
-# (a ^ b) % c.
-d = pow(a, b, c)
-print (d)
+x = 0
+while x < mod:
+    if (x ** power) % mod == n:
+        break
+    x += 1
+
+print (x)
+
+"""
+x = 7
+y = 2
+z = 5
+
+print(pow(x, y, z))
