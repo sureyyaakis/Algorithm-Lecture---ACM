@@ -2,7 +2,6 @@
 // Prime number is any number greater than 1 and only divisible by itself.
 // 1 is not prime number because it is not greater than 1
 
-
 public class PrimeNum {
     
 	public static void main(String[] args){
@@ -25,4 +24,3 @@ public class PrimeNum {
 	}
 
 }
-
