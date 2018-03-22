@@ -1,11 +1,24 @@
 #Efficient Prime Factorization
 
-n=24
-for i in range(2 , n+1):
-  if n%i==0 :
-    n1=i  
-    for b in range(2,n+1): 
-      if ((n1%b)==0) & (n1==b):
-          print([n1])
-      else (n1%b)==0 or n1<b:  
-          break
+import math
+primes = []
+factors = []
+
+def primeList():
+  for num in range(2,100):
+    if all(num%i!=0 for i in range(2,int(math.sqrt(num))+1)):
+       primes.append(num)
+  return primes
+    
+  
+def Factors():
+  n = 24
+  for i in range(len(primes)):
+    while n % primes[i] == 0: 
+        n = n / primes[i]
+        factors.append(primes[i]) 
+  print(factors) 
+    
+primeList()
+Factors()
+       
