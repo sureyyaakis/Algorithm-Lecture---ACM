@@ -1,4 +1,5 @@
- // (a*b)%M = ((a%M)*(b%M))%M
+// not done 
+// (a*b)%M = ((a%M)*(b%M))%M
 /**
  * Recursive (Not recommended)
  * if b = 0                   1
